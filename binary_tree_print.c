@@ -114,7 +114,7 @@ static int print_tree(const binary_tree_t *tree, int offset, int depth, char **b
 {
 	char b[6];
 	int width = 5;
-	int left, right, is_left, i;
+	int left, is_left, i;
 
 	if (!tree)
 		return (0);
